@@ -1,6 +1,7 @@
 body{
     background-color: darkgrey;
     color: white;
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -20,4 +21,12 @@ table{
     height: 20px;
     border: 1px solid darkgray;
     background-color:rgb(87, 82, 97);
-  }
+}
+
+.levels{
+    text-align: center;
+    border-radius: 50px white;
+}
+.smiley:hover{
+    cursor: pointer;
+}
