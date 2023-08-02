@@ -1,0 +1,23 @@
+body{
+    background-color: darkgrey;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+table{
+    border-collapse:separate;
+    border-spacing: 10px;
+}
+.board-container {
+    padding-top: 50px;
+    margin: auto;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid darkgray;
+    background-color:rgb(87, 82, 97);
+  }
