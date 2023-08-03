@@ -1,16 +1,19 @@
-body{
+body {
     background-color: darkgrey;
     color: white;
     text-align: center;
 }
-h2{
+
+h2 {
     text-align: center;
-    color: black;
+    color: lightblue;
 }
-table{
-    border-collapse:separate;
+
+table {
+    border-collapse: separate;
     border-spacing: 10px;
 }
+
 .board-container {
     padding-top: 50px;
     margin: auto;
@@ -20,13 +23,36 @@ table{
     width: 20px;
     height: 20px;
     border: 1px solid darkgray;
-    background-color:rgb(87, 82, 97);
+    background-color: rgb(87, 82, 97);
 }
 
-.levels{
+.levels {
     text-align: center;
     border-radius: 50px white;
 }
-.smiley:hover{
+
+button {
+    background-color: lightslategray;
+    margin-top: 10px;
+}
+
+.smiley,
+button:hover {
     cursor: pointer;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.smiley {
+    font-size: larger;
+}
+
+.randSafeCell{
+    background-color: cornflowerblue;
+}
+.light{
+    background-color: limegreen;
 }

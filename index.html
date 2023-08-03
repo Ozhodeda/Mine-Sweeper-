@@ -10,6 +10,7 @@
 
 <body onload="onInit()">
     <h2>💥 Mine Sweeper 💥</h2>
+    <button class="darkMode" onclick="darkMode(this)">Dark-Mode</button>
     <div>
         <span class="mine"></span>
         <span class="smiley" onclick="onInit()">😁</span>
@@ -20,6 +21,12 @@
         <button onclick="onInit(8,14)">Medium</button>
         <button onclick="onInit(12,32)">Hard</button>
     </div>
+    <div class="hint">
+        <button class="hints" onclick="chengHints(this)">🎇</button>
+        <button class="hints" onclick="chengHints(this)">🎇</button>
+        <button class="hints" onclick="chengHints(this)">🎇</button>
+    </div>
+    <button class="safeClick" onclick="SafeClick()">Safe-Click</button>
     <div class="live"></div>
     <table class="board-container">
         <tbody class="board"></tbody>
